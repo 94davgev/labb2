@@ -5,6 +5,7 @@ Suite Setup     setup
 
 *** Variables ***
 
+
 ${car}      //*[@id="bookModelSpass5"]
 ${card no.}     1234567891234567
 ${card day}     0
@@ -45,4 +46,11 @@ setup
     Go To    ${url}
     Wait Until Page Contains Element    ${title}
     Set Selenium Speed    0.5
+
+${firstname}    John
+${lasname}      Doe
+${phonenumber}      0123456789
+${usermail}     johndoe@email.boi
+${pass}     abc123
+
 
